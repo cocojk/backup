@@ -1,0 +1,6 @@
+# Aliases extracted from modules themselves.
+alias char-major-4-* 8250
+alias sound-service-?-0 snd_mixer_oss
+alias sound-service-?-12 snd_pcm_oss
+alias sound-service-?-3 snd_pcm_oss
+alias char-major-116-* snd

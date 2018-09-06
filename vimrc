@@ -1,4 +1,5 @@
 "set nocompatible " 오리지날 VI와 호환하지 않음
+syntax on
 set fileencodings=utf-8,euc-kr
 set autoindent  " 자동 들여쓰기
 set cindent " C 프로그래밍용 자동 들여쓰기
@@ -20,11 +21,12 @@ set ignorecase " 검색시 대소문자 무시, set ic 도 가능
 set tabstop=4 "  탭을 4칸으로
 set lbr
 set incsearch "  키워드 입력시 점진적 검색
-filetype indent on "  파일 종류에 따른 구문강조
+filetype indent on " 파일 종류에 따른구문 ㄱ자강조
 set background=dark " 하이라이팅 lihgt / dark
 colorscheme desert  "  vi 색상 테마 설정
 set backspace=eol,start,indent "  줄의 끝, 시작, 들여쓰기에서 백스페이스시 이전줄로
 set history=1000 "  vi 편집기록 기억갯수 .viminfo에 기록
+set rtp+=/home/coco/vim74
 
 set tags=./tags,tags,~/os/MINT64/tags,~/glibc/tags,~/gcc/tags,/opt/s5pc1xx/tags
 
